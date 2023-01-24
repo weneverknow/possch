@@ -19,3 +19,8 @@ class CurrentLocationException implements Exceptions {
   final String message;
   CurrentLocationException(this.message);
 }
+
+class FirestoreException implements Exceptions {
+  final String message;
+  FirestoreException(this.message);
+}
